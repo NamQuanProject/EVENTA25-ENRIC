@@ -1,0 +1,24 @@
+[
+    {
+        "query_id": "abc",
+        "generated_caption": "This is the generated caption",
+        "crawl_caption": "This is the crawled caption",
+        "article_summary": {
+            "raw_summary": "Huh, raw summary?",
+            "restruct_summary": "OMG RESTRUCTURED SUMMARY?",
+            "fact_summary": "Wow a fact summary"
+        },
+        "expected_output": "An expected outcome"
+    },
+    {
+        "query_id": "def",
+        "generated_caption": "This is the generated caption",
+        "crawl_caption": "This is the crawled caption",
+        "article_summary": {
+            "raw_summary": "Huh, raw summary?",
+            "restruct_summary": "OMG RESTRUCTURED SUMMARY?",
+            "fact_summary": "Wow a fact summary"
+        },
+        "expected_output": "An expected outcome"
+    }
+]

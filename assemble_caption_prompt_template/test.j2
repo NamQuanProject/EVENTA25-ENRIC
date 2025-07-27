@@ -1,0 +1,15 @@
+Pre-enhanced caption: {{ generated_caption }}
+Info caption: {{ crawl_caption }}
+
+I'm using THE RAW SUMMARY: {{ summary.raw }}
+
+I'm gonna list all the examples:
+{% for example in examples %}<begin_example>Example {{ loop.index }}
+    * Pre-enhanced caption:"""{{ example.generated_caption }}"""
+
+    * Info caption: """{{ example.crawl_caption }}"""
+
+    * Expected output:"""{{ example.expected_output }}"""
+<end_example>
+
+{% endfor %}
